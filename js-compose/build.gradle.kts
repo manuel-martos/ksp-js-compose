@@ -35,5 +35,5 @@ kotlin {
 
 
 dependencies {
-//    add("kspJs", project(":ksp-processor"))
+    add("kspJs", project(":ksp-processor"))
 }
