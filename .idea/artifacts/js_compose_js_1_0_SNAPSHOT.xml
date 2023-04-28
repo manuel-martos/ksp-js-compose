@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="js-compose-js-1.0-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/js-compose/build/libs</output-path>
+    <root id="archive" name="js-compose-js-1.0-SNAPSHOT.jar" />
+  </artifact>
+</component>
