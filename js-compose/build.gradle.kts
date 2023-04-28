@@ -15,15 +15,7 @@ repositories {
 
 kotlin {
     js(IR) {
-        browser {
-            testTask {
-                testLogging.showStandardStreams = true
-                useKarma {
-                    useChromeHeadless()
-                    useFirefox()
-                }
-            }
-        }
+        browser()
         binaries.executable()
     }
     sourceSets {
@@ -43,5 +35,5 @@ kotlin {
 
 
 dependencies {
-    add("kspJs", project(":ksp-processor"))
+//    add("kspJs", project(":ksp-processor"))
 }
