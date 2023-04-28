@@ -9,7 +9,7 @@ pluginManagement {
     plugins {
         kotlin("multiplatform").version(extra["kotlin.version"] as String)
         id("org.jetbrains.compose").version(extra["compose.version"] as String)
-        id("com.google.devtools.ksp") version("1.8.20-1.0.11") apply false
+        id("com.google.devtools.ksp") version("1.8.10-1.0.9") apply false
     }
 }
 
